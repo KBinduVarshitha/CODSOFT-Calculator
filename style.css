@@ -52,3 +52,24 @@
     box-shadow: -1px -1px 2px white, 1px 1px 2px white;
     cursor: pointer;
 }
+
+
+@media (max-width: 480px) 
+{
+    .outer
+    {
+        width: 200px;
+        margin: auto;
+    }
+
+    .letters
+    {
+        width: 40px;
+        font-size: medium;
+    }
+    
+    .words
+    {
+        font-size: large;
+    }
+}
